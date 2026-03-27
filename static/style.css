@@ -2,12 +2,12 @@
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(232, 232, 233);
+    background: rgb(233, 232, 233);
 }
 
 h1 {
     text-align: center;
-    background: rgb(152, 198, 241);
+    background: rgb(207, 241, 152);
     color: rgb(184, 235, 66);
 }
 
@@ -36,7 +36,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(235, 113, 113);
+    background: rgba(121, 113, 235, 0.26);
     width: 100px;
     height: 100px;
     margin: 10px;
@@ -46,7 +46,7 @@ li {
 }
 
 .bloks:hover {
-    background:  #ff4747;
+    background:  #47cbff;
     cursor: pointer;
 }
 
@@ -59,18 +59,38 @@ a {
     font-weight: bold;
     text-align: center;
     transition: background-color 0.3s, transform 0.2s;
-    background-color: #007BFF;
+    background-color: #a6ff00;
     color: white;
-    border: 2px solid #0056b3;
+    border: 2px solid #b30095;
 }
 
 a:hover {
-    background-color: #0056b3;
+    background-color: #963427;
     transform: scale(1.05);
 }
 
 a:active {
-    background-color: #007BFF;
+    background-color: #347e02;
     color: rgb(178, 236, 130);
     transform: scale(1.05);
+}
+
+body {
+    background-color: rgb(6, 214, 58);
+}
+.tops {
+    border-collapse: collapse;
+    margin: 15px;
+}
+
+.tops th, 
+.tops td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.tops th {
+    background-color: #4CAF50;
+    color: white;
 }
